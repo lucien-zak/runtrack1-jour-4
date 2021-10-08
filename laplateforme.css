@@ -232,6 +232,7 @@ footer {
     padding: 2%;
     color: white;
     transition: width 0.5s, box-shadow 0.5s;
+    border-style: none;
 }
 
 .bensavoirplus:hover {
