@@ -1,0 +1,390 @@
+@font-face {
+    font-family: roboto;
+    src: url(Roboto/Roboto-Black.ttf);
+    src: url(Roboto/Roboto-Bold.ttf);
+    src: url(Roboto/Roboto-Light.ttf);
+    src: url(Roboto/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #336699;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    height: 200%;
+    background-color: white;
+}
+
+/* **************** H E A D E R ****************** */
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+    transition: color 1s;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-right: 10px;
+}
+
+li {
+    color: #666666;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+a:hover {
+    color: rgb(197, 193, 193);
+}
+
+a:focus {
+    color: rgb(197, 193, 193);
+}
+
+#logo {
+    padding: 10px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+
+/* ************* M A I N ************** */
+
+/* ************* ASIDE & VIDEO ******** */
+
+main {
+    margin: 0;
+}
+
+.section1 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.presentation-text {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    color: #2563a1;
+    font-size: 30px;
+    background-color: white;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    transition: background-color 0.4s ease-in, box-shadow 0.2s;
+    text-align: center;
+}
+
+.presentation-text:hover {
+    box-shadow: 8px 8px 5px rgb(59, 58, 58);
+    background: rgb(241, 241, 247);
+}
+
+.boutton {
+    width: 47%;
+    color: white;
+    font-size: 25px;
+    background-color: #ff2063;
+    box-shadow: 2px 2px 5px rgb(83, 80, 80);
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    transition: width 1s,    background-color 1s;
+}
+
+.boutton:hover {    
+    background-color: #336699;
+    width: 52%;
+
+    text-align: center;
+}
+
+#cyril {
+    padding: 10px;
+}
+
+em {
+    color: white;
+    line-height: 1.0em;
+}
+
+h3 {
+    color: white;
+}
+
+/* ************ METIERS DU NUMERIQUE ************ */
+
+.background-section2 {
+    top: 0;
+    margin-top: 20px;
+    background-color: rgb(241, 241, 247);
+    width: 100%;
+    height: 800px;
+    margin-bottom: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    color: #336699;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+.webcoding-part  {
+    width: 22%;
+    height: 550px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #e1e1e9;
+}
+
+
+.ai-part {
+    width: 22%;
+    height: 550px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #e1e1e9;
+}
+
+.cybersecurity-part {
+    width: 22%;
+    height: 550px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 5px #d2d2e0;
+}
+
+h2 {
+    color: #336699;
+}
+
+span {
+    font-weight: bold;
+    color: #336699;
+}
+
+p {
+    color: #336699;
+}
+
+.boitelogo {
+    display: flex;
+    justify-content: center;
+}
+
+
+.boiteboutton {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.webbutton {
+    text-align: center;
+    width: 40%;
+    background-color: #ffca4b;
+    border-radius: 30px 30px 30px 30px;
+    padding: 2%;
+    color: white;
+    transition: width 0.5s, box-shadow 0.5s;
+}
+
+.webbutton:hover {
+    width: 45%;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+
+/* ********* PROFESSIONNELS ************ */
+
+.background-section3 {
+    background-color: transparent;
+    width: 100%;
+}
+
+.h1-title {
+    top: 0;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+.enterprise-part {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cadre {
+    background-color: white;
+    width: 89%;
+    box-shadow: 2px 2px 10px #292727;
+    padding: 1%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.textecadre {
+    display: flex;
+    flex-direction: column;
+}
+
+.ent-button {
+    width: 12%;
+    background-color: #ff2063;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    transition: width 0.5s , background-color 0.5s ease-in-out;
+}
+
+.ent-button:hover {
+    width: 15%;
+    background-color: #ffa000;
+}
+
+/* ************ F O O T E R ************ */
+
+footer {
+    background-color: magenta;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer1 {
+    display: flex;
+    width: 25%;
+    height: 50vh;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.plateforme {
+    max-width: auto;
+    max-height: 70%;
+    height: auto;
+    width: auto;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+
+.footer4 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.footeril {
+    list-style: none;
+    font-family: 'Roboto slab', serif;
+    text-align: justify;
+    line-height: 3em;
+    color: white;
+    font-size: 16px;
+}
+
+.footeriltitre{
+    list-style: none;
+    font-family: 'Roboto slab', serif;
+    text-align: justify;
+    line-height: 3em;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bensavoirplus {
+    text-align: center;
+    border: transparent;
+    width: 40%;
+    background-color: #ffca4b;
+    border-radius: 30px 30px 30px 30px;
+    padding: 2%;
+    color: white;
+    transition: width 0.5s, box-shadow 0.5s;
+}
+
+.bensavoirplus:hover {
+    width: 45%;
+    box-shadow: 1px 1px 5px rgb(61, 59, 59);
+}
+.plateforme {
+    max-width: auto;
+    max-height: 70%;
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
