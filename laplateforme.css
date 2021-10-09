@@ -239,3 +239,26 @@ footer {
     width: 45%;
     box-shadow: 2px 2px 5px lightgrey;
 }
+
+#container-form {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    margin: 0 14%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+        text-align: center;
+        padding: 0px 4%;
+        font-size: xx-large;
+}
+
+.input1 {
+    width: 40vw;
+}
